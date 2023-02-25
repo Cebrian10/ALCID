@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*background: radial-gradient(circle at center, #272727 80%, #636363, #818181, #a1a1a1, #c3c3c3);*/
+  background-color: #272727 !important;
+}
+
+.ini-ses{
+  font-size: calc(3.3rem + .6vw) !important;
+}
+
+.ini-ses .A, .Recuerdame{
+  color: #ffffff;
+}
+
+.ini-ses .L{
+  color: #c3c3c3;
+}
+
+.ini-ses .C{
+  color: #a1a1a1;
+}
+
+.ini-ses .I{
+  color: #818181;
+}
+
+.ini-ses .D{
+  color: #636363;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.olv-cont{
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #c3c3c3;
+}
